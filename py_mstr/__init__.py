@@ -1,4 +1,7 @@
+from py_mstr import Attribute, Metric, MstrClient, MstrClientException, MstrReportException, Prompt, Report, Singleton
 
-from py_mstr import *
 
-__version__ = "0.1.1"
+__all__ = [
+    'Attribute', 'Metric', 'MstrClient', 'MstrClientException', 'MstrReportException', 'Prompt', 'Report', 'Singleton',
+]
+__version__ = "0.2.1"
